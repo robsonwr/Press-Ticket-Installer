@@ -1,4 +1,5 @@
 #!/bin/bash
+# Robson Rissato - robsonwr@gmail.com
 # Print banner art.
 #######################################
 # Print a board. 
@@ -21,8 +22,8 @@ print_banner() {
   printf "\n\n"
 
   printf "${CYAN_LIGHT}";
-  printf "              .-"^`\                                        /`^"-.             \n";
-  printf "            .'   ___\                                      /___   `.             \n";
+  printf "              .-"'`\                                        /`'"-.             \n";
+  printf "            .'   ___\                                      /___   '.             \n";
   printf "           /    /.---.                                    .---.\    \             \n";
   printf "          |    //     '-.  ___________________________ .-'     \\    |             \n";
   printf "          |   ;|         \/--------------------------//         |;   |             \n";
@@ -30,7 +31,7 @@ print_banner() {
   printf "           \  | \  . \ ;  |       Press-Ticket       || ; / .  / |  /             \n";
   printf "            '\_\ \\ \ \ \ |                          ||/ / / // /_/'             \n";
   printf "                  \\ \ \ \|      Linux Debian 11     |/ / / //             \n";
-  printf "                   `'-\_\_\       Robson Risato      /_/_/-'`             \n";
+  printf "                   ''-\_\_\     Robson Rissato      /_/_/-''             \n";
   printf "                          '--------------------------'             \n";
   printf "\n" 
    
