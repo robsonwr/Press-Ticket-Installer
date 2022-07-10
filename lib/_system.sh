@@ -18,7 +18,9 @@ system_update() {
   su - root <<EOF
   apt -y update
   apt -y upgrade
-  apt -y install curl gcc g++ make net-tools mc
+  apt -y install curl gcc g++ make mlocate net-tools mc
+  sleep 2
+  updatedb
   sleep 2
   timedatectl set-timezone America/Sao_Paulo
 EOF
