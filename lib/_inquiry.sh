@@ -72,7 +72,7 @@ get_frontend_port() {
   print_banner
   printf "${WHITE} 💻 Digite a porta do FRONTEND para a ( ${instancia_add} ); Ex: 3000 A 3999 ${GRAY_LIGHT}"
   printf "\n\n"
-  printf "  Não use uma porta que ja esta sendo ultilizada em outras aplicações ou instancias. "
+  printf " ⌨️ Não use uma porta que ja esta sendo ultilizada em outras aplicações ou instancias. "
   printf "\n\n"
   read -p "> " frontend_port
 }
@@ -82,7 +82,7 @@ get_backend_port() {
   print_banner
   printf "${WHITE} 💻 Digite a porta do BACKEND para esta instancia; Ex: 4000 A 4999 ${GRAY_LIGHT}"
   printf "\n\n"
-  printf "  Não use uma porta que ja esta sendo ultilizada em outras aplicações ou instancias. "
+  printf " ⌨️ Não use uma porta que ja esta sendo ultilizada em outras aplicações ou instancias. "
   printf "\n\n"
   read -p "> " backend_port
 }
@@ -92,7 +92,7 @@ get_phpmyadmin_port() {
   print_banner
   printf "${WHITE} 💻 Digite a porta do PHPMYADMIN  para a ( ${instancia_add} ); Ex: 8080 ${GRAY_LIGHT}"
   printf "\n\n"
-  printf "  Não use uma porta que ja esta sendo ultilizada em outras aplicações ou instancias. "
+  printf " ⌨️ Não use uma porta que ja esta sendo ultilizada em outras aplicações ou instancias. "
   printf "\n\n"
   read -p "> " phpmyadmin_port
 }
